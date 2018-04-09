@@ -1,0 +1,125 @@
+
+.container1{
+	padding-top: 50px;
+	padding-left: 10%;
+}
+
+.nosotros{
+	background: #764494;
+	
+}
+
+.nosotros i{	
+	border-radius: 50%;
+	border: 3px solid #fff;
+	margin-bottom: 15px;
+	font-size: 50px;
+	height: 60px;
+	width: 60px;
+}
+
+
+.c{
+	height: 150px;
+	width: 150px;	
+	border-radius: 50%;
+	-webkit-shape-outside: circle();
+  	shape-outside: circle();
+  	float: left;
+  	-webkit-clip-path: circle();
+  	clip-path: circle();
+  	margin-right: 15px;
+}
+		
+
+
+.imgxxx{
+	height: 150px;
+	width: 150px;	
+	-webkit-shape-outside: circle(120px);
+  	shape-outside: circle(120px);
+  	float: left;
+  	-webkit-clip-path: circle(120px);
+  	clip-path: circle(120px);
+	
+}
+
+.element{	
+	float: left;
+	-webkit-clip-path: circle(120px);
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	-webkit-clip-path: none;
+}
+
+
+.left {
+  -webkit-shape-outside: polygon(0 0, 100% 100%, 0 100%);
+  shape-outside: polygon(0 0, 100% 100%, 0 100%);
+  float: left;
+  -webkit-clip-path: polygon(0 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+}
+
+
+.circle {
+  animation: 2s infinite alternate circle;
+}
+
+@keyframes circle {
+  from {
+    -webkit-clip-path: circle(0%);
+    clip-path: circle(0%);
+  }
+  to {
+    -webkit-clip-path: circle(120px);
+    clip-path: circle(120px);
+  }
+}
+
+
+
+/*************************/
+
+.service-item {
+  margin-bottom: 40px;
+}
+
+.service-icon {
+  float: left;
+  background: #03C4EB;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+}
+
+.service-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.service-item:hover .service-icon {
+  background: #fff;
+}
+
+.service-item:hover .service-icon i {
+  color: #03C4EB;
+}
+
+.service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.service-title a {
+  color: #111;
+}
+
+.service-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
